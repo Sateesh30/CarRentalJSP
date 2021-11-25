@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index</title>
+<link rel="stylesheet" href="bootstrap.min.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+  
+      <a class="navbar-brand" href="index.html">Car Rental</a>
+     
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+    
+    body {
+  font-family: Helvetica, sans-serif;
+  padding: 5%;
+  text-align: center;
+  background-color: black;
+}
+
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 5s linear infinite;
+}
+
+.slide {
+  float: left;
+  height: 50%;
+  width: 4000px;
+}
+
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+
+  </style>
+</head>
+
+
+
+<div id="slideshow">
+  <div class="slide-wrapper">
+    <div class="slide">
+           <img src="images/car2.jpg" />
+         
+           <img src="images/carrental1 - Copy.gif" />
+           
+           <img src="images/car1.jpg" />  
+           <img src="images/car4.jpg" />
+           <img src="images/car3.jpg" />
+           <img src="images/car5.jpg" />
+           <img src="images/car6.jpg" />
+           <img src="images/car7.jpg" />
+           <img src="images/car8.jpg" />
+           <img src="images/carrental3 - Copy.gif" />
+           </div>
+         
+  </div>
+</div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#">Admin</a></li>
+        <li><a href="#">Renter</a></li>
+       </ul>
+
+    </div><!-- /.navbar-collapse -->
+  <!-- /.container-fluid -->
+</nav>
+
+<div class="container-fluid">
+<h1>Car Rental System</h1>
+
+<div class="row">
+  <div class="col-md-6">
+  <h3>Admin Login</h3>
+  <form action="AdminLogin.jsp" method="post" style="width:300px">
+  <div class="form-group">
+    <label for="email1">Email address</label>
+    <input type="email" class="form-control" name="email" id="email1" placeholder="Email"/>
+  </div>
+  <div class="form-group">
+    <label for="password1">Password</label>
+    <input type="password" class="form-control" name="password" id="password1" placeholder="Password"/>
+  </div>  
+  <button type="submit" class="btn btn-primary">Login</button>
+</form>
+  
+  </div>
+  <div class="col-md-6">
+  <h3>Renter Login</h3>
+  <form action="LenderLogin.jsp" method="post" style="width:300px">
+  <div class="form-group">
+    <label for="email1">Email address</label>
+    <input type="email" class="form-control" id="email1" name="email" placeholder="Email"/>
+  </div>
+  <div class="form-group">
+    <label for="password1">Password</label>
+    <input type="password" class="form-control" id="password1" name="password" placeholder="Password"/>
+  </div>  
+  <button type="submit" class="btn btn-primary">Login</button>
+</form>
+</div>
+  </div>
+</div>
+
+
+
+
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+</body>
+</html>
